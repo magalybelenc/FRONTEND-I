@@ -1,0 +1,88 @@
+body{
+    background-image: url(./img/fondo.jpg);
+    background-repeat:repeat-y;
+    background-size: contain;
+    font-family:'Amatic SC';
+}
+header ul li{
+    font-style: normal;
+    list-style-type: none;
+    text-align: center;
+    display: inline;
+    margin: 0 10px 0 0;
+    font-size: 15px;
+}
+h1{
+    color:#E818D2;
+    font-family:'Amatic SC';
+    font-size:60px;
+    font-weight: 1000;
+    line-height: 300px;
+    letter-spacing:0.3em;
+    text-align:left;
+    width:100%;
+    background-image:url(./img/yo.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: contain;
+}
+#datospersonales{
+    color:black;
+    font-family:'Amatic SC';
+    font-size:20px;
+    font-weight: 700;
+    line-height: 40px;
+}
+#datospersonales h2{
+    background-color:#D7C5EC;
+    color:#4A247A;
+    font-size:40px;
+    font-weight: 700;
+    line-height: 40px;
+}
+#formacionacademica{
+    
+    color:black;
+    font-family:'Amatic SC';
+    font-size:20px;
+    font-weight: 700;
+    line-height: 40px;
+}
+#formacionacademica h2{
+    color:#304d30;
+    background-color: #D2F3F8;
+    font-size:40px;
+    font-weight: 700;
+    line-height: 40px;
+}
+#experiencialaboral{
+    color:black;
+    font-family:'Amatic SC';
+    font-size:20px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+#experiencialaboral h2{
+    background-color:#D7C5EC;
+    color:#4A247A;
+    font-size:40px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+#idiomas{
+    
+    color:black;
+    font-family:'Amatic SC';
+    font-size:20px;
+    font-weight: 700;
+    line-height: 40px;
+}
+#idiomas h2{
+    color:#304d30;
+    background-color: #D2F3F8;
+    font-size:40px;
+    font-weight: 700;
+    line-height: 40px;
+}

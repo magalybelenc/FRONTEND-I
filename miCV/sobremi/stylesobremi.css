@@ -1,0 +1,39 @@
+body{
+    background-color: lemonchiffon;
+    background-repeat:repeat-y;
+    background-size: cover;
+    font-family:'Amatic SC';
+}
+header ul li{
+    font-style: normal;
+    list-style-type: none;
+    text-align: center;
+    display: inline;
+    margin: 0 10px 0 0;
+    font-size: 15px;
+}
+main{
+    
+    font-family:'Amatic SC';
+    font-size:40px;
+    font-weight: 1000;
+    text-align:left;
+    width:100%;
+    
+}
+h1{
+    font-size: 60px;
+    color:#D42299;
+    font-weight: 100%;
+    line-height: 100px;
+    text-align: center;
+}
+main ul{
+    background-image:url(../img/FELUMABE1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 70%;
+    color:black;
+    font-weight: 1000;
+    line-height: 200px;
+}
