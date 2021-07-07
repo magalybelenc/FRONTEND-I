@@ -1,34 +1,50 @@
 body{
-    background-image: url(./img/fondo.jpg);
-    width: 100vw;
-    background-repeat: no-repeat;
-    background-position-y:top;
-    background-size: cover;
-   font-family:'Viaoda Libre'; 
+    width: 100%;
+    background-color: #e7b6d3;
+    magin: 0px;
 }
 main{
     background-color: rgb(229, 229, 229);
+    font-family: Yomogi;
 }
 h1{
-    color: #88195a;
+    color: #e22694;
     background-color: rgba(229, 229, 229,0.5);
+    font-family: "Zen Tokyo Zoo";
     font-size: 40px;
     font-weight: 500;
     line-height: 70px;
-    letter-spacing: 0.5em;
-    text-align:left;
+    letter-spacing: 0.4em;
+    text-align: center;
     height: 4rem;
-    width:100vw;
+    width:100%;
+    margin:0px;
+    padding: 10px;
 }
-ul li{
-    font-style: normal;
-    font-size: 30px;
-    list-style-type:none;
-    line-height: 200px;
-    letter-spacing: 0.3em;
-    display:inline;
-    line-height: normal;
+
+main nav ul{
+    display: flex;
+    flex-flow: wrap;
+    align-content: space-around;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
 }
-nav{
-     text-align: center;
+
+main ul li{
+    text-align: center;
+    width: 30%;
+}
+
+main ul li a{
+    color:black;
+    text-decoration: none;
+
+}
+main ul li a:hover{
+    color:#e22694;
+    text-decoration: underline;
+    font-size: 20px;
+    letter-spacing: 0.4em;
+    background-color: black;
 }
